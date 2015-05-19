@@ -1,0 +1,48 @@
+
+<HTML>
+<!-- New User Registration Page.-->
+
+<HEAD>
+<META HTTP-EQUIV ="Pragma"  CONTENT="no cache">
+<META HTTP-EQUIV ="Cache-control"  CONTENT="no cache">
+<META HTTP-EQUIV ="Expires"  CONTENT="0">
+<TITLE>New User Account Oppening Page</TITLE>
+<HEAD>
+<BODY>
+<BR>
+	<CENTER>
+	<H4>New User Create Account</H4><BR>
+	<FORM  METHOD=POST  ACTION="AddRecord">
+	<TABLE>
+	<TR><TH></TH></TR>
+		<TR><TD>First Name: <INPUT  TYPE="Text"  NAME="FirstName"  VALUE = " "></TD></TR>
+		<TR><TD>Last Name: <INPUT  TYPE="Text"  NAME="LastName"  VALUE = " "></TD></TR>
+		<TR><TD>Account Password:  <INPUT  TYPE="password"  NAME="PassWord"></TD></TR>
+		<TR><TD>Account Type: 
+		<select name="AccountType"> 
+		<option value="Saving">Saving Account</option> 
+		<option value="Checking">ChecKing Account</option>
+		<option value="Loan">Loan Account</option>
+		</select></TD></TR>
+		<TR><TD>
+		Account ID:
+		<select name="AccountID"> 
+		<option value="01">01</option> 
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		</select></TD></TR>
+		<TR><TD>Initial Amount: <INPUT  TYPE="Text"  NAME="Amount"  VALUE = " "> </TD></TR>
+		<TR><TD> </TD></TR>
+		<TR><TD> </TD></TR>
+		<TR><TD> </TD></TR>
+		<TR><TD><INPUT TYPE="Submit" value="Submit">
+		<INPUT TYPE="reset" VALUE="Clear"> <INPUT TYPE=button onClick="parent.location = 'Login.html'" value="Login">
+		</TD></TR>
+		</TABLE>
+		</FORM>
+		</CENTER>
+</BODY>
+
+</HTML>

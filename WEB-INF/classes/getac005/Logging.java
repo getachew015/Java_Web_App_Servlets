@@ -17,7 +17,7 @@ public void logaction(String action){
 		out.println(action+" "+dtformat);
 		out.close();
 	} catch (Exception e) {
-		System.out.println("Log file Error Occured");
+		System.out.println("Logfile Error Occured");
  	}
 	}
 }
